@@ -1,5 +1,5 @@
-baseurl = "http://whoishou.com/"
-theme = "hugo-geo"
+baseurl = "https://agitated-franklin-4873ae.netlify.com/"
+theme = "hugo-geo @ b91ad6f"
 themesdir = "themes"
 relativeURLs = false
 languageCode = "en-uk"
