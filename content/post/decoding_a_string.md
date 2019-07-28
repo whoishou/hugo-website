@@ -23,7 +23,7 @@ For extra kudos, solve the following and include the solution in your cover lett
 
 I was curious to know what this was, and what skills the company was seeking to validate.
 
-#### Challenge Accepted~~?~~!
+##### Challenge Accepted~~?~~!
 
 If you want to give it a go yourself, pause here before reading on.
 
