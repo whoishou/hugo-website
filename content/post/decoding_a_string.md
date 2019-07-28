@@ -3,7 +3,7 @@ date = "2018-12-26T22:00:00+00:00"
 description = "decoding a string"
 highlight = true
 index = true
-tags = ["ctf"]
+tags = []
 title = "Decoding a string"
 
 +++
@@ -66,8 +66,6 @@ So I saved the string as a ZIP file, opened the archive and lo and behold there 
 
 ![](/uploads/passwordneeded.png)
 
-This isn’t over.. yet
-
 ***
 
 ## What's the password?
@@ -84,14 +82,17 @@ I uploaded the ZIP file and it turns out the password is… password
 
 [relevant gif](https://media.giphy.com/media/12Wg70eAHyifPW/giphy.gif)
 
-Go figure.. I should have just guessed that to begin with.
+Go figure.. I should have just guessed that to begin with..  
+(maybe ill create a script that can brute 100 common passwords as a starting point)
 
 I opened the text file and lo behold the mystery was unveiled.
 
 ![](/uploads/whatsinside.png)
 
-So what's bobbytables? its a reference to an xkcd comic called [The Exploits of a Mom. ](https://xkcd.com/327/)![](/uploads/exploits_of_a_mom.png)
+So what's bobbytables? its a reference to an xkcd comic called [The Exploits of a Mom.](https://xkcd.com/327/)
+
+![](/uploads/exploits_of_a_mom.png)
 
 Brilliant! Curiosity satiated!
 
-If you know of or come across similar challenges, let me know via [twitter]() or send me an email, houman@whoishou.com
+If you know of or come across similar challenges, let me know via twitter or send me an email, houman@whoishou.com
