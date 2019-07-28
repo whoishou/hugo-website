@@ -78,7 +78,7 @@ Instead i opted for a ZIP file password remover on[ passwordrecovery.io]( passwo
 
 I uploaded the ZIP file and it turns out the password is… password
 
-<<iframe src="[https://giphy.com/embed/12Wg70eAHyifPW](https://giphy.com/embed/12Wg70eAHyifPW "https://giphy.com/embed/12Wg70eAHyifPW")" width="480" height="344" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="[https://giphy.com/gifs/door-cop-mixed-gif-12Wg70eAHyifPW](https://giphy.com/gifs/door-cop-mixed-gif-12Wg70eAHyifPW "https://giphy.com/gifs/door-cop-mixed-gif-12Wg70eAHyifPW")">via GIPHY</a></p>
+<div style="width:100%;height:0;padding-bottom:72%;position:relative;"><iframe src="[https://giphy.com/embed/12Wg70eAHyifPW](https://giphy.com/embed/12Wg70eAHyifPW "https://giphy.com/embed/12Wg70eAHyifPW")" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="[https://giphy.com/gifs/door-cop-mixed-gif-12Wg70eAHyifPW](https://giphy.com/gifs/door-cop-mixed-gif-12Wg70eAHyifPW "https://giphy.com/gifs/door-cop-mixed-gif-12Wg70eAHyifPW")">via GIPHY</a></p>
 
 Go figure.. I should have just guessed that to begin with.
 
@@ -86,11 +86,8 @@ I opened the text file and lo behold the mystery was unveiled.
 
 ![](/uploads/whatsinside.png)
 
-So whats bobbytables? well it could quite literally mean a person called bobby and his tables?
-
-Almost! its a reference to an xkcd comic called The Exploits of a Mom.
-![](/uploads/exploits_of_a_mom.png)
+So what's bobbytables? its a reference to an xkcd comic called [The Exploits of a Mom. ](https://xkcd.com/327/)![](/uploads/exploits_of_a_mom.png)
 
 Brilliant! Curiosity satiated!
 
-If you know of or come across similar challenges, let me know via twitter or send me an email, houman@whoishou.com
+If you know of or come across similar challenges, let me know via [twitter]() or send me an email, houman@whoishou.com
