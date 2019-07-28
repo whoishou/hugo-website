@@ -62,7 +62,10 @@ File formats when viewed as text are meaningless (most of the time), but on some
 PK can also refer to other file formats built on the ZIP format such as docx, jar and apk.
 
 So I saved the string as a ZIP file, opened the archive and lo and behold there lied the whatsinside.txt text file.
+
+
 ![](/uploads/passwordneeded.png)
+
 This isn’t over.. yet
 
 ***
