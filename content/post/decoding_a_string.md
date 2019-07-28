@@ -29,7 +29,9 @@ If you want to give it a go yourself, pause here before reading on.
 
 ## To decode or ~~not~~ to decode?
 
-Looking at the string provided (a string is just a sequence of characters), it looks like it might have been encoded with Base64. The string is made up of the characters: a – z, A – Z, 0 -9, + and / which is used by Base64. There is also some padding on the end of the string represented by the == which fulfils Base64’s length requirements. This [Wikipedia article](https://en.wikipedia.org/wiki/Base64) explains Base64 in more depth.
+Looking at the string provided (a string is just a sequence of characters), it looks like it might have been encoded with Base64. The string is made up of the characters: a – z, A – Z, 0 -9, + and / which is used by Base64. 
+
+There is also some padding on the end of the string represented by the == which fulfils Base64’s length requirements. This [Wikipedia article](https://en.wikipedia.org/wiki/Base64) explains Base64 in more depth.
 
 So lets decode it!
 
