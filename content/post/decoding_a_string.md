@@ -1,7 +1,6 @@
 +++
 date = "2018-12-26T22:00:00+00:00"
 description = "decoding a string"
-draft = true
 highlight = true
 index = true
 tags = ["ctf"]
@@ -78,7 +77,7 @@ Instead i opted for a ZIP file password remover on[ passwordrecovery.io]( passwo
 
 I uploaded the ZIP file and it turns out the password is… password
 
-<div style="width:100%;height:0;padding-bottom:72%;position:relative;"><iframe src="[https://giphy.com/embed/12Wg70eAHyifPW](https://giphy.com/embed/12Wg70eAHyifPW "https://giphy.com/embed/12Wg70eAHyifPW")" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="[https://giphy.com/gifs/door-cop-mixed-gif-12Wg70eAHyifPW](https://giphy.com/gifs/door-cop-mixed-gif-12Wg70eAHyifPW "https://giphy.com/gifs/door-cop-mixed-gif-12Wg70eAHyifPW")">via GIPHY</a></p>
+[relevant gif](https://media.giphy.com/media/12Wg70eAHyifPW/giphy.gif)
 
 Go figure.. I should have just guessed that to begin with.
 
