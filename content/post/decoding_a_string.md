@@ -1,6 +1,7 @@
 +++
 date = "2018-12-26T22:00:00+00:00"
 description = "decoding a string"
+draft = true
 highlight = true
 index = true
 tags = ["ctf"]
