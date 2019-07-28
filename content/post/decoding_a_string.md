@@ -1,44 +1,42 @@
 +++
-date = "2016-03-04"
-title = "Decoding a string"
-tags = ["ctf", "series", "hugo"]
+date = "2018-12-26T22:00:00+00:00"
 description = "decoding a string"
-index = true
 highlight = true
+index = true
+tags = ["ctf"]
+title = "Decoding a string"
+
 +++
-
-
 So I was recently browsing Seek which is an Australian job searching website. I was looking to see where the Industry is headed and what skills I should be focusing on developing for a career in Information Security.
 
 I came across a security analyst role that had the following:
 
 For extra kudos, solve the following and include the solution in your cover letter:
 
-
->UEsDBAoACQAAAM1rV0xjL16LGAAAAAwAAAAPABw
-Ad2hhdHNpbnNpZGUudHh0VVQJAAPBfI9a1HyPWnV4
-CwABBAAAAAAEAAAAALvAF23HELDMWWvH/sMUFqMab
-C8PE+ZY/lBLBwhjL16LGAAAAAwAAABQSwECHgMKAA
-kAAADNa1dMYy9eixgAAAAMAAAADwAYAAAAAAABAAA
-ApIEAAAAAd2hhdHNpbnNpZGUudHh0VVQFAAPBfI9a
-dXgLAAEEAAAAAAQAAAAAUEsFBgAAAAABAAEAVQAAAHEAAAAAAA==
-
+> UEsDBAoACQAAAM1rV0xjL16LGAAAAAwAAAAPABw
+> Ad2hhdHNpbnNpZGUudHh0VVQJAAPBfI9a1HyPWnV4
+> CwABBAAAAAAEAAAAALvAF23HELDMWWvH/sMUFqMab
+> C8PE+ZY/lBLBwhjL16LGAAAAAwAAABQSwECHgMKAA
+> kAAADNa1dMYy9eixgAAAAMAAAADwAYAAAAAAABAAA
+> ApIEAAAAAd2hhdHNpbnNpZGUudHh0VVQFAAPBfI9a
+> dXgLAAEEAAAAAAQAAAAAUEsFBgAAAAABAAEAVQAAAHEAAAAAAA==
 
 What is it? Can I work it out? I was curious.
 
 Challenge Accepted!
 
 If you want to give it a go yourself, pause here before reading on.
-To Decode or not to Decode?
+
+## To Decode or not to Decode?
 
 Looking at the string provided (a string is just a sequence of characters), it looks like it might have been encoded with Base64.
 The string is made up of the characters: a – z, A – Z, 0 -9, + and / which is used by Base64.
 There is also some padding on the end of the string represented by the == which fulfils Base64’s length requirements.
-This [Wikipedia article] (https://en.wikipedia.org/wiki/Base64) explains Base64 in more depth.
+This \[Wikipedia article\] (https://en.wikipedia.org/wiki/Base64) explains Base64 in more depth.
 
 So lets decode it!
 
-I like to use a tool called [Cyber Chef] (https://gchq.github.io/CyberChef/), its provided by the [Government Communications Headquarters (GCHQ)] (https://www.gchq.gov.uk/) an intelligence and security organisation in the UK. Its a web app that has a number of different tools covering encryption, encoding, compressio, data analysis etc.
+I like to use a tool called \[Cyber Chef\] (https://gchq.github.io/CyberChef/), its provided by the \[Government Communications Headquarters (GCHQ)\] (https://www.gchq.gov.uk/) an intelligence and security organisation in the UK. Its a web app that has a number of different tools covering encryption, encoding, compressio, data analysis etc.
 
 Decoding from Base64 resulted in:
 
@@ -56,7 +54,7 @@ A friend suggested that it was a zip file.
 That makes sense but how did they know that? they said they just did…
 Hmm… there must be a way to identify that this is a zip file without guessing or having come across something like this before right?
 
-Right! I did some research on how you would be able to identify different file types and came across a Wikipedia article about [file signatures] (https://en.wikipedia.org/wiki/List_of_file_signatures) (also refered to as [magic numbers] (https://en.wikipedia.org/wiki/Magic_number_(programming)).
+Right! I did some research on how you would be able to identify different file types and came across a Wikipedia article about \[file signatures\] (https://en.wikipedia.org/wiki/List_of_file_signatures) (also refered to as \[magic numbers\] (https://en.wikipedia.org/wiki/Magic_number_(programming)).
 
 File formats when viewed as text are meaningless (most of the time), but on some occasions, the file signature has recognisable text which would allow you to discern what the file format is. The string starts with PK. PK as it turns out refers to Phil Katz, the developer of the ZIP file format.
 PK can also refer to other file formats built on the ZIP format such as docx, jar and apk.
@@ -84,11 +82,9 @@ I opened the text file and lo behold the mystery was unveiled.
 
 So whats bobbytables? well it could quite literally mean a person called bobby and his tables?
 
-
 Almost! its a reference to an xkcd comic called The Exploits of a Mom.
 an xkcd comib about the exploits of a mom and little bobby tables
 
 Brilliant! Curiosity satiated!
 
 If you know of or come across similar challenges, let me know via twitter or send me an email, houman@whoishou.com
-
