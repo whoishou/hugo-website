@@ -4,7 +4,7 @@ themesdir = "themes"
 relativeURLs = false
 languageCode = "en-uk"
 title = "WhoIsHou"
-disqusShortname = "shortcode-here"
+# disqusShortname = "shortcode-here"
 paginate = 5
 
 [taxonomies]
