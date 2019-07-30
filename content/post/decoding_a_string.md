@@ -23,13 +23,13 @@ For extra kudos, solve the following and include the solution in your cover lett
 
 I was curious to know what this was, and what skills the company was seeking to validate.
 
-##### Challenge Accepted~~?~~!
+##### Challenge Accepted\~\~?\~\~!
 
 If you want to give it a go yourself, pause here before reading on.
 
 ## To decode or ~~not~~ to decode?
 
-Looking at the string provided (a string is just a sequence of characters), it looks like it might have been encoded with Base64. The string is made up of the characters: a – z, A – Z, 0 -9, + and / which is used by Base64. 
+Looking at the string provided (a string is just a sequence of characters), it looks like it might have been encoded with Base64. The string is made up of the characters: a – z, A – Z, 0 -9, + and / which is used by Base64.
 
 There is also some padding on the end of the string represented by the == which fulfils Base64’s length requirements. This [Wikipedia article](https://en.wikipedia.org/wiki/Base64) explains Base64 in more depth.
 
@@ -56,13 +56,12 @@ A friend suggested that it was a zip file.
 That makes sense but how did they know that? they said they just did…
 Hmm… there must be a way to identify that this is a zip file without guessing or having come across something like this before right?
 
-Right! I did some research on how you would be able to identify different file types and came across a Wikipedia article about [file signatures](https://en.wikipedia.org/wiki/List_of_file_signatures) (also refered to as [magic numbers]( https://en.wikipedia.org/wiki/Magic_number_(programming)))
+Right! I did some research on how you would be able to identify different file types and came across a Wikipedia article about [file signatures](https://en.wikipedia.org/wiki/List_of_file_signatures) (also referred to as [magic numbers](https://en.wikipedia.org/wiki/Magic_number_(programming)))
 
 File formats when viewed as text are meaningless (most of the time), but on some occasions, the file signature has recognisable text which would allow you to discern what the file format is. The string starts with PK. PK as it turns out refers to Phil Katz, the developer of the ZIP file format.
 PK can also refer to other file formats built on the ZIP format such as docx, jar and apk.
 
 So I saved the string as a ZIP file, opened the archive and lo and behold there lied the whatsinside.txt text file.
-
 
 ![](/uploads/passwordneeded.png)
 
@@ -76,7 +75,7 @@ Alas that search was in vain so I decided on a different approach.
 
 If there are no hint to be found, then it has to be something simple or easily crack-able. I thought of compiling a list of the words inside the job description, then attempting to brute force the password using something like John the Ripper.
 
-Instead i opted for a ZIP file password remover on[ passwordrecovery.io]( passwordrecovery.io)
+Instead i opted for a ZIP file password remover i found online
 
 I uploaded the ZIP file and it turns out the password is… password
 
