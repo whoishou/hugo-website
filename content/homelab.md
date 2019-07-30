@@ -3,7 +3,7 @@ date = ""
 description = "My HomeLab tinkering workstation"
 highlight = true
 index = true
-tags = ["hugo", "homelab"]
+tags = ["homelab"]
 title = "Homelab"
 
 +++
