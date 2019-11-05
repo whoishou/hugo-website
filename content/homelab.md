@@ -18,4 +18,4 @@ An Open VPN servers is in the pipelines so I can access the lab remotely, as wel
 
 Ideally I’d like to reach a stage where I can begin automating different elements of the lab and optimising my off site cloud services.
 
-I’ll be making ~~regular~~ blog posts on my progress, so feel free to head over to [read more](https://whoishou.com/blog/)
+I’ll be making ~~regular~~ blog posts on my progress, so feel free to head over to [read more](https://whoishou.com)
