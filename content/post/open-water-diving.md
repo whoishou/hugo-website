@@ -1,6 +1,5 @@
 +++
 description = ""
-draft = true
 highlight = false
 index = true
 tags = []
