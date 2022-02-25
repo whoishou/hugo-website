@@ -1,7 +1,7 @@
 +++
-date = "2018-12-26T22:00:00+00:00"
+date = 2018-12-26T22:00:00Z
 description = "decoding a string"
-highlight = true
+highlight = false
 index = true
 tags = []
 title = "Decoding a string"
