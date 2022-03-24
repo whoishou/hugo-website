@@ -7,6 +7,8 @@ title = "WhoIsHou"
 # disqusShortname = "shortcode-here"
 paginate = 5
 
+cloudinary_url = "https://res.cloudinary.com/whoishou/image/upload"
+
 [taxonomies]
 	tag = "tags"
 	tutorial = "tutorials"
