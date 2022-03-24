@@ -8,6 +8,7 @@ title = "WhoIsHou"
 paginate = 5
 
 cloudinary_url = "https://res.cloudinary.com/whoishou/image/upload"
+cloudinary_base_url ="https://res.cloudinary.com/whoishou”
 
 [taxonomies]
 	tag = "tags"
