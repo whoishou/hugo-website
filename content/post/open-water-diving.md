@@ -11,4 +11,4 @@ I recently went through PADI Open Water Diver certification, which has been some
 
 <img src="{{ https://res.cloudinary.com/whoishou/image/upload/v1648133600/diving.jpg }} />
 
-(/v1648133600/diving.jpg)
+![](/v1648133600/diving.jpg)
