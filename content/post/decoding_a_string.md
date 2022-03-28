@@ -94,4 +94,4 @@ So what's bobbytables? its a reference to an xkcd comic called [The Exploits of 
 
 Brilliant! Curiosity satiated!
 
-If you know of or come across similar challenges, let me know via twitter or send me an email, houman@whoishou.com
+If you know of or come across similar challenges, let me know via twitter or send me an email
