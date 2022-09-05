@@ -1,1 +1,1 @@
-Apparently you are suppose to read this
+This is my website/portfolio, accessible via whoishou.com
